@@ -30,7 +30,7 @@ export default function Header() {
                 key={id}
                 role="tab"
                 className={`tab text-base ${
-                  pathname.endsWith(`/${id}`) ? "font-bold" : ""
+                  pathname.endsWith(`/posts-list/${id}`) ? "font-bold" : ""
                 } `}
               >
                 {`Posts: ${from}-${to}`}
